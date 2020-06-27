@@ -73,6 +73,10 @@ p {
     text-align: left;
 }
 
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
 /* Title Image */
 
 .title-image {
