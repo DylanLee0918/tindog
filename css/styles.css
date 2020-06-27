@@ -27,7 +27,7 @@ p {
 }
 
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
 }
 
 
@@ -81,7 +81,6 @@ p {
 /* feature section */
 
 #features {
-    padding: 7% 15%;
     background-color: #fff;
     position: relative;
     z-index: 1;
@@ -122,10 +121,6 @@ p {
     margin: 20px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
 #press {
     background-color: #ef8172;
     padding: 3%;
@@ -156,14 +151,9 @@ p {
 #cta {
     background-color: #ff4c68;
     color: #fff;
-    padding: 7% 15%;
 }
 
 /* Footer Section */
- 
-#footer {
-    padding: 7% 15%;
-}
 
 .social-icon {
     margin: 20px 10px;
