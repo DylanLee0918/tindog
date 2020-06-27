@@ -23,6 +23,7 @@ p {
 #title {
     background-color: #ff4c68;
     color: #fff;
+    text-align: left;
 }
 
 .container-fluid {
@@ -34,7 +35,6 @@ p {
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
-    text-align: left;
 }
 
 .section-heading {
@@ -173,7 +173,7 @@ p {
     #title {
         text-align: center;
     }
-    
+
     .title-image {
         position: static;
         transform: rotate(0);
