@@ -20,10 +20,6 @@ p {
     color: #8f8f8f;
 }
 
-.container-fluid {
-    padding: 3% 15% 7%;
-}
-
 .big-heading {
     font-weight: 900;
     font-size: 3.5rem;
@@ -33,6 +29,21 @@ p {
 .section-heading {
     font-size: 3rem;
     line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
 }
 
 /* Navigation Bar */
@@ -48,7 +59,7 @@ p {
 }
 
 .nav-item {
-    padding: 0 0px;
+    padding: 0 13px;
     text-align: left;
 }
 
@@ -64,9 +75,8 @@ p {
 
 /* Title Section */
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
+#title .container-fluid {
+    padding: 3% 15%;
     text-align: left;
 }
 
@@ -82,7 +92,6 @@ p {
 /* feature section */
 
 #features {
-    background-color: #fff;
     position: relative;
     z-index: 1;
 }
@@ -108,7 +117,6 @@ p {
 
 #testimonials {
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-text {
@@ -149,11 +157,6 @@ p {
 
 /* CTA section */
 
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
-}
-
 /* Footer Section */
 
 .social-icon {
@@ -161,7 +164,7 @@ p {
 }
 
 @media (max-width: 1028px) {
-    #title {
+    #title .big-heading {
         text-align: center;
     }
 
